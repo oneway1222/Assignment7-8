@@ -13,8 +13,8 @@ Time spent: **8** hours spent in total
     - Fixed in version: 4.2.5
   - [x] GIF Walkthrough:<img src='http://i.imgur.com/2tlNfkv.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [X] Steps to recreate: 
-     -Create new text post (this does not work in comments)
-     -Splice HTML tag with shortcode tag to sneak in alert
+     - Create new text post (this does not work in comments)
+     - Splice HTML tag with shortcode tag to sneak in alert
   - [X] Affected source code:
     - [Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
