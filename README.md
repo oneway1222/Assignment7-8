@@ -7,11 +7,11 @@ Time spent: **8** hours spent in total
 ## Pentesting Report
 
 1. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough: (https://camo.githubusercontent.com/2bbf270a61690f77a45acb7d0123163af7c7ea50/687474703a2f2f692e696d6775722e636f6d2f32746c4e666b762e676966.gif)
+  - [x] GIF Walkthrough:<img src='http://i.imgur.com/2tlNfkv.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [ ] Steps to recreate: 
      -Create new text post (this does not work in comments)
      -Splice HTML tag with shortcode tag to sneak in alert
