@@ -6,7 +6,7 @@ Time spent: **8** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
@@ -18,7 +18,7 @@ Time spent: **8** hours spent in total
   - [X] Affected source code:
     - [Link](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
     
-2. (Required)WordPress 4.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds
+2. (Required)Authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2.2  
@@ -26,12 +26,12 @@ Time spent: **8** hours spent in total
   - [x] GIF Walkthrough: <img src='http://i.imgur.com/dLSUl4q.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
   - [X] Steps to recreate: 
    - Create new text post
-   - Insert a url like https://youtube[.]com/watch?v=abc<svg onload=alert(1)>, which will escape WordPress's autoembed function and return untouched
+   - Insert a url like https://youtube[.]com/watch?v=abc with "< s v g on load=alert(1)>" concatenated at the end, which will escape WordPress's autoembed function and return untouched
    - When the post is viewed, the alert will show  
   - [X] Affected source code:
     - [Link](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
     
-3. (Required) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+3. (Required) Authenticated Cross-Site Scripting (XSS)
   - [X] Summary: 
     - Vulnerability types:XSS
     - Tested in version:4.2.2   
