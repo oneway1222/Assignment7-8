@@ -12,12 +12,40 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.5
   - [x] GIF Walkthrough:<img src='http://i.imgur.com/2tlNfkv.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
-  - [ ] Steps to recreate: 
+  - [X] Steps to recreate: 
      -Create new text post (this does not work in comments)
      -Splice HTML tag with shortcode tag to sneak in alert
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+  - [X] Affected source code:
+    - [Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
+2. (Required)WordPress 4.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2  
+    - Fixed in version: 4.2.13
+  - [x] GIF Walkthrough: <img src='http://i.imgur.com/dLSUl4q.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+  - [X] Steps to recreate: 
+   - Create new text post
+   - Insert a url like https://youtube[.]com/watch?v=abc<svg onload=alert(1)>, which will escape WordPress's autoembed function and return untouched
+   - When the post is viewed, the alert will show  
+  - [X] Affected source code:
+    - [Link](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+    
+3. (Required) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+  - [X] Summary: 
+    - Vulnerability types:XSS
+    - Tested in version:4.2.2   
+    - Fixed in version: 4.2.5
+  - [x] GIF Walkthrough: <img src='http://i.imgur.com/F1TGfxJ.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+  - [x] Steps to recreate:
+       -Login as an administrator
+       -Create new text post
+       -Add alert script to the end of a link
+       -Alert will appear whenever page is viewed 
+  - [X] Affected source code:
+    - [Link](https://core.trac.wordpress.org/changeset/36185)
+    
+4. (Optional)
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -26,25 +54,8 @@ Time spent: **8** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+    
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
