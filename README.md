@@ -64,7 +64,7 @@ Time spent: **8** hours spent in total
     - Vulnerability types:XSS
     - Tested in version:4.2.4
     - Fixed in version: 4.2.13
-  - [x] GIF Walkthrough: <img src='http://i.imgur.com/meAnTdw.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+  - [x] GIF Walkthrough: <img src='http://i.imgur.com/1q8h1yA.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [x] Steps to recreate: 
    - Upload an mp3 file to the WordPress media library, under editor or administrator
    - Insert an audio playlist containing this mp3 into a post
