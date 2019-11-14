@@ -16,7 +16,7 @@ Time spent: **8** hours spent in total
      - Create new text post (this does not work in comments)
      - Splice HTML tag with shortcode tag to sneak in alert
   - [X] Affected source code:
-    - [Link](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link](https://github.com/WordPress/WordPress/commit/f72b21af23da6b6d54208e5c1d65ececdaa109c8)
     
 2. (Required)WordPress 4.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [X] Summary: 
